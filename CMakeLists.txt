@@ -3,5 +3,5 @@ project(Inheritance)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Counter.cpp Counter.h)
 add_executable(Inheritance ${SOURCE_FILES})
