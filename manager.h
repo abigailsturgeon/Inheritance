@@ -7,8 +7,9 @@
 
 
 #include "employee.h"
+#include "student.h"
 
-class manager : public employee
+class manager : private employee, private student
 {
 private:
     string title;       // "president", etc.

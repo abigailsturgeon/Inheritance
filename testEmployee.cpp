@@ -12,6 +12,7 @@ using namespace std;
 
 int main()
 {
+    /*
     //employee e1;
     //e1.setData();
     //e1.getData();
@@ -32,7 +33,14 @@ int main()
     f1.setData();
     f1.getData();
     return 0;
+     */
 
+
+    manager m1;
+    m1.setData();
+    m1.getData();
+
+    return 0;
 }
 
 // Function Definitions
